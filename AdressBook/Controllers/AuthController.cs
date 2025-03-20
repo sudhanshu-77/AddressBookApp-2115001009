@@ -16,11 +16,11 @@ public class AuthController : ControllerBase
 {
     private readonly Logger _logger = LogManager.GetCurrentClassLogger();
     private readonly IUserBL _userBL;
-    private readonly JwtTokenHelper _jwtTokenHelper;
+    private readonly IJwtTokenHelper _jwtTokenHelper;
     private readonly SMTP _smtp;
     private readonly IRabbitMQService _rabbitMQService;
 
-    public AuthController(IUserBL userBL, JwtTokenHelper jwtTokenHelper, SMTP smtp, IRabbitMQService rabbitMQService)
+    public AuthController(IUserBL userBL, IJwtTokenHelper jwtTokenHelper, SMTP smtp, IRabbitMQService rabbitMQService)
     {
         _userBL = userBL ?? throw new ArgumentNullException(nameof(userBL), "UserBL cannot be null.");
         _jwtTokenHelper = jwtTokenHelper;

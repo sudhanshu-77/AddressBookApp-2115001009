@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace Middleware.JwtHelper
 {
-    public class JwtTokenHelper
+    public class JwtTokenHelper : IJwtTokenHelper
     {
         private readonly IConfiguration _configuration;
         private readonly string _key;

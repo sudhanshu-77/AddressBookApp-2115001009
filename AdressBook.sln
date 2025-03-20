@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Middleware", "Middleware\Middleware.csproj", "{8B3C2CB7-A2A7-4ABD-A55E-80EC6E5BE18E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook Testing", "AddressBook Testing\AddressBook Testing.csproj", "{B7AC15F4-309E-4F4A-8BF4-E504263E720C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8B3C2CB7-A2A7-4ABD-A55E-80EC6E5BE18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B3C2CB7-A2A7-4ABD-A55E-80EC6E5BE18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B3C2CB7-A2A7-4ABD-A55E-80EC6E5BE18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7AC15F4-309E-4F4A-8BF4-E504263E720C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AC15F4-309E-4F4A-8BF4-E504263E720C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AC15F4-309E-4F4A-8BF4-E504263E720C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AC15F4-309E-4F4A-8BF4-E504263E720C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

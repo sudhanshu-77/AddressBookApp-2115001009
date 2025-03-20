@@ -11,9 +11,9 @@ public class UserBL : IUserBL
 {
     private readonly ILogger<UserBL> _logger; //   Correct logging
     private readonly IUserRL _userRL;
-    private readonly JwtTokenHelper _jwtTokenHelper; //   JWT Helper added
+    private readonly IJwtTokenHelper _jwtTokenHelper; //   JWT Helper added
 
-    public UserBL(IUserRL userRL, ILogger<UserBL> logger, JwtTokenHelper jwtTokenHelper)
+    public UserBL(IUserRL userRL, ILogger<UserBL> logger, IJwtTokenHelper jwtTokenHelper)
     {
         _logger = logger;
         _userRL = userRL;

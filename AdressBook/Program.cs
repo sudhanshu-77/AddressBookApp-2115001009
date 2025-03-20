@@ -81,7 +81,7 @@ builder.Services.AddScoped<IUserBL, UserBL>();
 builder.Services.AddScoped<IUserRL, UserRL>();
 
 //   Register JWT Token Helper as a Singleton
-builder.Services.AddSingleton<JwtTokenHelper>();
+builder.Services.AddSingleton<IJwtTokenHelper,JwtTokenHelper>();
 
 // Configure JWT Authentication
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
